@@ -1,0 +1,16 @@
+{
+    "userAdmin":[
+        {
+            "name":"user01",
+            "psw":"password01"
+        },
+        {
+            "name":"user02",
+            "psw":"password02"
+        },
+        {
+            "name":"admin01",
+            "psw":"password01"
+        }
+    ]
+}

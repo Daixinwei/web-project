@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" charset="utf-8"/>
+            <title>UWES</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- 引入 Bootstrap -->
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+       
+            <!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+            <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+            <!--[if lt IE 9]>
+               <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+               <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+            <![endif]-->
+            <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+            <script src="https://code.jquery.com/jquery.js"></script>
+            <!-- 包括所有已编译的插件 -->
+            <script src="js/bootstrap.min.js"></script>
+            <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+            <script>
+
+            </script>
+        </head>
+         <body>
+            <div class="container">
+                <h2>学習に関する調査(UWES)</h2>
+                <p>次の 3 つの質問文は，学習に関してどう感じているかを記述したものです.
+                各文をよく読んで，あなたが学習に関してそのように感じているかどうかを判断してください.
+                そのように感じたことが一度もない場合は，0(ゼロ)を，感じたことがある場合はその頻度に当てはまる数字(1から6)を，質問文の左側の下線部に記入してください.
+                The following 3 statements are about how you feel regarding your studies. 
+                Please read each statement carefully and decide if you ever feel this way about your studies. 
+                If you have never had this feeling, cross the “0” (zero) in the space after the statement. 
+                If you have had this feeling, indicate how often you feel it by crossing the number (from 1 to 6) that best describes how frequently you feel that way.</p>
+                <img src="image/option.png" class="img-responsive"></img>
+                <div class="container">
+                    <h4>1. 学習をしていると，活力がみなぎるように感じる. (When I’m doing my work as a student, I feel bursting with energy.)　</h4>
+                    <form>
+                        <input type="radio" name="ratio">0
+                        <input type="radio" name="ratio">1
+                        <input type="radio" name="ratio">2
+                        <input type="radio" name="ratio">3
+                        <input type="radio" name="ratio">4
+                        <input type="radio" name="ratio">5
+                        <input type="radio" name="ratio">6
+                    </form>
+                </div>
+               <div class="container">
+                    <h4>2. 仕事に熱心である. (I am enthusiastic about my studies.)　</h4>
+                    <form>
+                        <input type="radio" name="ratio">0
+                        <input type="radio" name="ratio">1
+                        <input type="radio" name="ratio">2
+                        <input type="radio" name="ratio">3
+                        <input type="radio" name="ratio">4
+                        <input type="radio" name="ratio">5
+                        <input type="radio" name="ratio">6
+                    </form>
+               </div>
+               <div class="container">
+                    <h4>3. 私は仕事にのめり込んでいる. (I am immersed in my studies.)</h4>
+                    <form>
+                        <input type="radio" name="ratio">0
+                        <input type="radio" name="ratio">1
+                        <input type="radio" name="ratio">2
+                        <input type="radio" name="ratio">3
+                        <input type="radio" name="ratio">4
+                        <input type="radio" name="ratio">5
+                        <input type="radio" name="ratio">6
+                    </form>
+                </div>
+                <button type="submit" class="btn btn-asuccess" onclick=answer()>Submit</button>
+            </div>
+         </body>
+    </html>
